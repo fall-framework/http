@@ -1,0 +1,16 @@
+{
+  "name": "fall/http",
+  "description": "A package to handle http",
+  "require": {
+    "php": "^7.4",
+    "fall/core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "fall\\http\\": "src"
+    }
+  }
+}
